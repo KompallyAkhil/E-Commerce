@@ -1,0 +1,53 @@
+const Homedata = [
+    {
+        "id": "1",
+        "Title": "OnePlus 12",
+        "ProductImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202312/658d380264f01-oneplus-12-series-will-debut-on-january-23-285529107-16x9.jpg?size=948:533",
+        "Description": "Snapdragon® 8 Gen 3 Mobile Platform | LTPO AMOLED, 1B colors, 120Hz, Dolby Vision, HDR10+, 600 nits (typ), 1600 nits (HBM), 4500 nits | 50 MP, f/1.6, 23mm (wide)",
+        "Price": "₹59,999",
+        "Offer":"₹54,999",
+        "Rating": "4.6",
+        "Discount": "5% Off",
+    },
+    {
+        "id": "2",
+        "Title": "iPhone 15 Pro max",
+        "ProductImage": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.xlarge.jpg",
+        "Description": "A17 Pro chip  | 48 MP, f/1.8, 24mm (wide), 1/1.28 1.22µm, dual pixel PDAF, sensor-shift OIS | LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits",
+        "Price": "₹99,990",
+        "Offer":"₹93,990",
+        "Rating": "4.8",
+        "Discount": "7% Off",
+    },
+    {
+        "id": "3",
+        "Title": "iQOO 12 Pro",
+        "ProductImage": "https://images.indianexpress.com/2023/11/iqoo12-iqoo12pro.jpg?w=640",
+        "Description": "India's 1st Snapdragon® 8 Gen 3 Mobile Platform | India's only Flagship with 50MP + 50MP + 64MP Camera | LTPO AMOLED, 1B colors, 144Hz, HDR10+",
+        "Price":"₹49,990",
+        "Offer":"₹45,990",
+        "Rating": "4.2",
+        "Discount": "4% Off",
+    },
+    {
+        "id": "4",
+        "Title": "Samsung Galaxy S24 Ultra",
+        "ProductImage": "https://i.gadgets360cdn.com/large/galaxy_s23_ultra_1682326090947.jpg?downsize=950:*",
+        "Description": "Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits  |  Snapdragon® 8 Gen 3 Mobile Platform  |  200 MP, f/1.7, 24mm (wide), 1/1.3 0.6µm, multi-directional PDAF",
+        "Price": "₹89,990",
+        "Offer":"₹84,990",
+        "Rating": "4.8",
+        "Discount": "5% Off",
+    },
+    {
+        "id": "5",
+        "Title": "Xiaomi 14 Ultra",
+        "ProductImage": "https://i.gadgets360cdn.com/large/xiaomi_13_ultra_xiaomi_2_1706768768528.jpg?downsize=950:*",
+        "Description": "50 MP Leica Quad Camera | 2K 120 Hz LTPO AMoled | Snapdragon® 8 Gen 3 Mobile Platform | 90 W Hypercharge | 80W wireless, 100% in 46 min",
+        "Price": "₹69,990",
+        "Offer":"₹64,990",
+        "Rating": "4.1",
+        "Discount": "5% Off",
+    }
+]
+export default Homedata;

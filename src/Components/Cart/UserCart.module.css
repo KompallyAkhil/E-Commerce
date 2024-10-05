@@ -1,0 +1,147 @@
+.Heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0;
+}
+
+.MainTable {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 40vh;
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.del {
+    color: red;
+    text-align: right;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.discount,.savings {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: green;
+    text-align: right;
+}
+
+.Cartbtns {
+    border-radius: 8px;
+    height: 38px;
+    width: 120px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.Cartbtns:hover {
+    background-color: rgb(35, 35, 207);
+}
+
+.Cartbtn {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.BillSection {
+    display: inline-block;
+    width: 100%;
+}
+
+.Billtable {
+    width: 25%;
+    height: 200px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tds,.discount,.savings {
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .MainTable {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .table, .Billtable {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Heading {
+        font-size: 1.5rem;
+    }
+
+    .image {
+        width: 30vh;
+    }
+
+    .Cartbtns {
+        width: 100px;
+        height: 35px;
+    }
+
+    .table, .Billtable {
+        width: 100%;
+    }
+
+    .Billtable {
+        font-size: 0.9rem;
+    }
+
+    .tds {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Heading {
+        font-size: 1.2rem;
+    }
+    .image {
+        width: 25vh;
+    }
+    .table, .Billtable {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .tds {
+        padding: 6px;
+    }
+    .Cartbtns {
+        width: 90px;
+        height: 30px;
+    }
+}
